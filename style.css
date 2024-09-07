@@ -2,9 +2,6 @@
   background: linear-gradient(#05010180, #0000007a),
     url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg");
 }
-form{
-  display:none;
-}
 .search-bar {
   position: relative;
   left: 50%;
@@ -64,8 +61,8 @@ form{
 
 @media screen and (max-width: 1300px) {
   .quote-container {
+    margin-top: 150px;
     width: 90%;
-    margin-top: 50px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -74,10 +71,10 @@ form{
 
 @media screen and (max-width: 550px) {
   .quote-container {
-    width: 80%;
-    height: 90vh;
-    margin-top: 50px;
-    font-size: 1em;
+    margin-top: 150px;
+    font-size: 0.7em;
     text-align: justify;
+    width: fit-content;
+    height: fit-content;
   }
 }
