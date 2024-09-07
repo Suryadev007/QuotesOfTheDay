@@ -2,6 +2,9 @@
   background: linear-gradient(#05010180, #0000007a),
     url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg");
 }
+form{
+  display:none;
+}
 .search-bar {
   position: relative;
   left: 50%;
